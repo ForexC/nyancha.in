@@ -86,6 +86,7 @@ DEFAULT_TEMPLATE = """
         %(body)s
         <hr class="clear">
         <div class="footer">
+            <a href="http://nyancha.in/address.html target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
             <a href="http://nyancha.in/q"><i class="fa fa-code"></i>API</a>
             <a href="http://nyancha.in/address/K8E6npt4QADCbRvmPpXMY12ZqRiZ2WwPNf"><i class="fa fa-heart"></i>Donate</a>
         </div>
