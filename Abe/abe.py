@@ -91,7 +91,7 @@ DEFAULT_TEMPLATE = """
         </div>
     </div>
     <div id="nyans"></div>
-    <script src="/nyan.js" type="text/javascript">
+    <script src="/nyan.js"></script>
 </body>
 </html>
 """
