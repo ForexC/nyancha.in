@@ -192,3 +192,7 @@ p.shortlink > a {
     text-align: left;
   }
 }
+
+.nyan {
+  display: none;
+}

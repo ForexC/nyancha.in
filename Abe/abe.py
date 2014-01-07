@@ -90,6 +90,7 @@ DEFAULT_TEMPLATE = """
             <a href="http://nyancha.in/address/K8E6npt4QADCbRvmPpXMY12ZqRiZ2WwPNf"><i class="fa fa-heart"></i>Donate</a>
         </div>
     </div>
+    <div class="nyan"><img src="%(dotdot)s%(STATIC_PATH)snyanchain.png" alt=""></div>
 </body>
 </html>
 """
