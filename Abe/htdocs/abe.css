@@ -193,6 +193,17 @@ p.shortlink > a {
   }
 }
 
+#nyans {
+  position: absolute;
+}
+
 .nyan {
-  display: none;
+  height: 50px;
+  position: absolute;
+  width: 100px;
+}
+
+.nyan > img {
+  height: 50px;
+  width: 100px;
 }
