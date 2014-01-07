@@ -1,5 +1,3 @@
-(function () {
-
 var nyans = 0;
 
 var createNyan = function () {
@@ -29,5 +27,3 @@ var createNyan = function () {
 };
 
 setTimeout(createNyan, Math.random() * 10000);
-
-})();
