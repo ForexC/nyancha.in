@@ -57,7 +57,7 @@ WORK_BITS = 304  # XXX more than necessary.
 
 CHAIN_CONFIG = [
     {"chain":"Nyancoin",
-     "code3":"NYN", "address_version":"\x2d", "magic":"\xfb\xc0\xb6\xdb"},
+     "code3":"NYN", "address_version":"\x2d", "magic":"\xfc\xd9\xb7\xdd"},
     ]
 
 NULL_HASH = "\0" * 32
