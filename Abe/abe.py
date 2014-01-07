@@ -47,7 +47,7 @@ COPYRIGHT_YEARS = '2011'
 COPYRIGHT = "Abe developers"
 COPYRIGHT_URL = 'https://github.com/bitcoin-abe'
 
-DONATIONS_NYAN = 'K8E6npt4QADCbRvmPpXMY12ZqRiZ2WwPNf'
+DONATIONS_NYAN = 'KD144Fmm94D6goqvda8ksAQTpgLNspuSPA'
 
 TIME1970 = time.strptime('1970-01-01','%Y-%m-%d')
 EPOCH1970 = calendar.timegm(TIME1970)
@@ -88,7 +88,7 @@ DEFAULT_TEMPLATE = """
         <div class="footer">
             <a href="http://nyancha.in/address.html" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
             <a href="http://nyancha.in/q"><i class="fa fa-code"></i>API</a>
-            <a href="http://nyancha.in/address/K8E6npt4QADCbRvmPpXMY12ZqRiZ2WwPNf"><i class="fa fa-heart"></i>Donate</a>
+            <a href="http://nyancha.in/address/KD144Fmm94D6goqvda8ksAQTpgLNspuSPA"><i class="fa fa-heart"></i>Donate</a>
         </div>
     </div>
     <div id="nyans"></div>
