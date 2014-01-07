@@ -1,3 +1,5 @@
+(function () {
+
 var nyans = 0;
 
 var createNyan = function () {
@@ -19,8 +21,13 @@ var createNyan = function () {
     if (left === window.innerWidth) {
       clearInterval(interval);
       nyan.remove();
+      setTimeout(createNyan, Math.random() * 5000);
     }
-  }, 10);
+  }, 12);
 
   nyans++;
 };
+
+setTimeout(createNyan, Math.random() * 5000);
+
+})();
