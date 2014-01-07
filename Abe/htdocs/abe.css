@@ -199,7 +199,7 @@ p.shortlink > a {
 
 .nyan {
   height: 50px;
-  position: absolute;
+  position: fixed;
   width: 100px;
 }
 
