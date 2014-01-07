@@ -21,13 +21,13 @@ var createNyan = function () {
     if (left === window.innerWidth) {
       clearInterval(interval);
       nyan.remove();
-      setTimeout(createNyan, Math.random() * 5000);
+      setTimeout(createNyan, 5000 + Math.random() * 5000);
     }
   }, 12);
 
   nyans++;
 };
 
-setTimeout(createNyan, Math.random() * 5000);
+setTimeout(createNyan, Math.random() * 10000);
 
 })();

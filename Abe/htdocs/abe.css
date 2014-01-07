@@ -194,10 +194,8 @@ p.shortlink > a {
 }
 
 #nyans {
+  pointer-events: none;
   position: absolute;
-  transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -webkit-transition: opacity 0.2s;
 }
 
 .nyan {
@@ -210,8 +208,3 @@ p.shortlink > a {
   height: 50px;
   width: 100px;
 }
-
-.nyan:hover {
-  opacity: 0;
-  pointer-events: none;
-};
