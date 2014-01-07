@@ -79,7 +79,7 @@ DEFAULT_TEMPLATE = """
 </head>
 <body>
     <div class="header">
-        <a href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)snyanchain.png" alt="" height="110"></a>
+        <a href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)snyanchain.png" alt="" height="100"></a>
     </div>
     <div class="content">
         <h1 class="pull-left">%(h1)s</h1>
