@@ -9,7 +9,7 @@ var createNyan = function () {
   nyan.setAttribute('class', 'nyan');
   nyan.setAttribute('id', 'nyan' + curr);
   nyan.setAttribute('style', 'left: ' + left + 'px; top: ' + top + '%');
-  nyan.innerHTML = '<img src="/nyan.gif" height="50" width="100" alt="">';
+  nyan.innerHTML = '<img src="/static/nyan.gif" height="50" width="100" alt="">';
   document.getElementById('nyans').appendChild(nyan);
 
   var interval = setInterval(function () {

@@ -63,8 +63,8 @@ DEFAULT_TEMPLATE = """
 <head>
     <title>%(title)s</title>
     <meta name="description" content="Nyancoin Block Explorer: view detailed information on all Nyancoin transactions and blocks.">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="%(dotdot)s%(STATIC_PATH)sabe.css" />
     <link rel="shortcut icon" href="%(dotdot)s%(STATIC_PATH)sfavicon.ico" />
     <script>
@@ -73,7 +73,7 @@ DEFAULT_TEMPLATE = """
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-36765833-7', 'nyancha.in');
+      ga('create', 'UA-61556445-1', 'auto');
       ga('send', 'pageview');
     </script>
 </head>
@@ -86,13 +86,13 @@ DEFAULT_TEMPLATE = """
         %(body)s
         <hr class="clear">
         <div class="footer">
-            <a href="http://nyancha.in/address.html" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
-            <a href="http://nyancha.in/q"><i class="fa fa-code"></i>API</a>
-            <a href="http://nyancha.in/address/KD144Fmm94D6goqvda8ksAQTpgLNspuSPA"><i class="fa fa-heart"></i>Donate</a>
+            <a href="https://nyan.space/address.html" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
+            <a href="https://nyan.space/q"><i class="fa fa-code"></i>API</a>
+            <a href="https://nyan.space/address/KQm7yxJ4EWoohRHv3NaSH8VMxT3owf1oWk"><i class="fa fa-heart"></i>Donate</a>
         </div>
     </div>
     <div id="nyans"></div>
-    <script src="/nyan.js"></script>
+    <script src="%(dotdot)s%(STATIC_PATH)snyan.js"></script>
 </body>
 </html>
 """
