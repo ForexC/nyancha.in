@@ -1,4 +1,7 @@
 /venv/
+/build/
 
 *.pyo
 *.pyc
+/*.sqlite
+/*.sqlite-journal
