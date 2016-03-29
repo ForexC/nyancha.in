@@ -208,3 +208,8 @@ p.shortlink > a {
   height: 50px;
   width: 100px;
 }
+
+#instantclick-bar {
+  background: #014479 url('instantclick-bar.png') left repeat;
+  height: 16px;
+}

@@ -86,15 +86,17 @@ DEFAULT_TEMPLATE = """
         %(body)s
         <hr class="clear">
         <div class="footer">
-            <a href="https://nyan.space/address.html" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
-            <a href="https://nyan.space/q"><i class="fa fa-code"></i>API</a>
-            <a href="https://nyan.space/address/KQm7yxJ4EWoohRHv3NaSH8VMxT3owf1oWk"><i class="fa fa-heart"></i>Donate</a>
-			<a href="https://github.com/Nyancoins/nyancha.in"><i class="fa fa-github"></i>Github</a>
-			<a href="https://www.reddit.com/r/nyancoins/"><i class="fa fa-reddit"></i>Reddit</a>
+            <a data-no-instant href="https://nyan.space/address.html" target="_blank"><i class="fa fa-qrcode"></i>Paper Wallet</a>
+            <a data-no-instant href="https://nyan.space/q"><i class="fa fa-code"></i>API</a>
+            <a data-no-instant href="https://nyan.space/address/KQm7yxJ4EWoohRHv3NaSH8VMxT3owf1oWk"><i class="fa fa-heart"></i>Donate</a>
+            <a data-no-instant href="https://github.com/Nyancoins/nyancha.in"><i class="fa fa-github"></i>Github</a>
+            <a data-no-instant href="https://www.reddit.com/r/nyancoins/"><i class="fa fa-reddit"></i>Reddit</a>
         </div>
     </div>
     <div id="nyans"></div>
     <script src="%(dotdot)s%(STATIC_PATH)snyan.js"></script>
+    <script data-no-instant src="%(dotdot)s%(STATIC_PATH)sinstantclick.min.js"></script>
+    <script data-no-instant>InstantClick.init('mousedown');</script>
 </body>
 </html>
 """
